@@ -7,7 +7,7 @@ package selenium;
 	public class os_info {
 		
 		
-		static WebDriver driver;
+	static WebDriver driver;
 	static final String OSinformation = System.getProperty("os.name");
 	static final String Win ="WIN";
 	static final String Mac ="MAC";
@@ -31,7 +31,7 @@ package selenium;
 					
 	System.out.println("Your machine is running on"+OSinformation+"\n"+"Chrome Driver is launching for"+OSinformation);
 	//System.setProperty("webdriver.chrome.driver","/Users/afsanakeya/eclipse-workspace/Classwork/jar/chromedriver");
-	System.setProperty("webdriver.chrome.driver","./MAC_Driver/chromedriver");
+	System.setProperty("webdriver.chrome.driver","/Users/afsanakeya/Documents/Automation/selenium/Driver/chromedriver");
 		 driver=new ChromeDriver();
 		
 		  }

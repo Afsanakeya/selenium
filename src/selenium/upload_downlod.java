@@ -10,7 +10,7 @@ package selenium;
 	  public static void main(String[] args) throws Throwable {
 		  WebDriver driver;
 		
-		  System.setProperty("webdriver.chrome.driver","./Driver/chromedriver");
+		  System.setProperty("webdriver.chrome.driver","/Users/afsanakeya/Documents/Automation/selenium/Driver/chromedriver");
 			 driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.get("http://demo.guru99.com/test/upload/");
